@@ -12,7 +12,7 @@ public class Main {
 			
 			switch (mode)
 			{
-				case 'g':
+				case 'g': //calculates how many stacks you need to sell to meet a goal
 				{
 					double tax;
 		
@@ -40,7 +40,7 @@ public class Main {
 		
 					else
 					{
-						double result = Math.floor(dividend / divisor);
+						double result = Math.floor(dividend / divisor); //floor is used to round the number down to a whole number
 						double remain = dividend % divisor;
 		
 						System.out.println("You need to sell " + result + " stacks, missing the goal by " + remain + "S.");
@@ -48,7 +48,7 @@ public class Main {
 					}
 				}
 				
-				case 's':
+				case 's': //calculates how much you will earn on a sale
 				{
 					double tax;
 					
@@ -82,7 +82,7 @@ public class Main {
 					}
 				}
 				
-				case 'r':
+				case 'r': //calculates how much spina you will (theoretically) earn every minute/hour
 				{
 					double tax;
 					
